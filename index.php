@@ -1,6 +1,4 @@
-<?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/_vendor/autoload.php');
-?>
+
 <html>
     <head>
         <!-- Required meta tags -->
