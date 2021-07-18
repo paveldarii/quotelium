@@ -1,5 +1,5 @@
 
-<div class="navbar navbar-inverse" style="border-radius: 0 !important;">
+<div class="navbar navbar-inverse" ">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
