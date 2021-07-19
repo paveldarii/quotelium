@@ -1,0 +1,17 @@
+<?php
+declare(strict_types=1);
+?>
+
+<html lang="en">
+<head>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/user/inc/head-scripts.php');?>
+</head>
+<body>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/user/inc/nav.php');?>
+<main class="page-background">
+    <h1 class="text-center" style="margin: 0px;">Welcome to the land of quotes!</h1>
+</main>
+<?php include ($_SERVER['DOCUMENT_ROOT'].'/user/inc/footer.php');?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/user/inc/bottom_scripts.php');?>
+</body>
+</html>
