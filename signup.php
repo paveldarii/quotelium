@@ -8,17 +8,23 @@
 <main class="page-background">
     <div class="container">
         <div clas="col-sm-3">
-        <form id="create-user" class="mt-5" method="post" >
+        <form id="create-user" class="mt-5" method="post" autocomplete="on">
+            <div class="form-group">
+                <input type="text" class="form-control" name="given-name" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="family-name" placeholder="Last Name">
+            </div>
             <div class="form-group">
                 <input type="email" class="form-control" name="email" placeholder="Email">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control"  name="password" placeholder="Password" >
+                <input type="password"  class="form-control"  name="new-password" placeholder="Password" >
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" name="password" placeholder="Repeat Password" >
+                <input type="password"   class="form-control" name="new-password2" placeholder="Repeat Password" >
             </div>
-            <button id="submit-create-user" name="submit" type="submit" value="Submit" class="btn btn-primary">Sign up</button>
+            <button  name="submit" type="submit" value="Submit" class="btn btn-primary">Sign up</button>
         </form>
         </div>
     </div>

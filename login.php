@@ -6,8 +6,8 @@
 <body>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/inc/nav.php');?>
 <main class="page-background">
-    <form id="create-user" method="post"  >
-        <div class="container ">
+    <form id="login-user" method="post"  >
+        <div class="container">
             <div class="form-group">
                 <input type="email" class="form-control" name="email" placeholder="Email">
             </div>
@@ -17,7 +17,7 @@
             <div class="form-group">
                 <input type="password" class="form-control" name="password" placeholder="Repeat Password" >
             </div>
-            <button id="submit-create-user" name="submit" type="submit" value="Submit" class="btn btn-primary">Sign up</button>
+            <button name="submit" type="submit" value="Submit" class="btn btn-primary">Sign up</button>
         </div>
     </form>
 </main>

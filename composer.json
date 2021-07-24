@@ -1,0 +1,40 @@
+{
+  "name":"pavel/quotelium",
+  "description":"Quote Warehouse",
+  "version":"1.0.0",
+  "time":"2021-07-24 12:22:07",
+  "license":"proprietary",
+  "authors": [
+    {
+      "name": "Pavel Darii"
+    }
+  ],
+  "config": {
+    "vendor-dir": "_vendor",
+    "optimize-autoloader": true
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dancorsolutions/CSRF-Protector-PHP"
+    }
+  ],
+  "require": {
+    "php" : "^7.2.34",
+    "monolog/monolog": "1.20.0",
+    "sinergi/browser-detector": "6.0.2",
+    "ext-curl": "*",
+    "authorizenet/authorizenet": "1.9.3",
+    "phpmailer/phpmailer": "~6.0",
+    "box/spout": "2.7",
+    "owasp/csrf-protector-php": "dev-master",
+    "ext-mysqli": "*",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Quotelium\\": "_global/"
+    }
+  }
+}

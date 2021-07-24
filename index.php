@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-require($_SERVER['DOCUMENT_ROOT'] . '/_global/mysql.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/_global/pdo.php');
 ?>
 
 <html lang="en">
