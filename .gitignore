@@ -1,3 +1,9 @@
+_vendor
+.idea
+_global/pdo.php
+_global/mysql.php
+
+
 # Logs
 logs
 *.log
@@ -103,6 +109,4 @@ dist
 # TernJS port file
 .tern-port
 
-_vendor
-.idea
 
