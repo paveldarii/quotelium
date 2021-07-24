@@ -10,8 +10,6 @@ $statement->execute([$_POST['given-name'], $_POST['family-name'], $_POST['email'
 $user_id = $pdo->lastInsertId();
 echo json_encode($user_id);
 
-
-
-
+$pdo = null;
 
 ?>
